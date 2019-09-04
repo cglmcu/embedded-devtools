@@ -10,6 +10,30 @@
 [submodule "strace"]
 	path = strace
 	url = git://github.com/strace/strace
-[submodule "file"]
-	path = file
-	url = git://github.com/file/file
+[submodule "tcpdump"]
+	path = tcpdump
+	url = https://github.com/the-tcpdump-group/tcpdump
+[submodule "libpcap"]
+	path = libpcap
+	url = https://github.com/the-tcpdump-group/libpcap
+[submodule "zlib"]
+	path = zlib
+	url = https://github.com/madler/zlib
+[submodule "libunwind"]
+	path = libunwind
+	url = https://github.com/libunwind/libunwind
+[submodule "boost"]
+	path = boost
+	url = https://github.com/boostorg/boost
+[submodule "heaptrack"]
+	path = heaptrack
+	url = https://github.com/KDE/heaptrack
+[submodule "ltrace"]
+	path = ltrace
+	url = https://github.com/dkogan/ltrace
+[submodule "elfutils"]
+	path = elfutils
+	url = git://sourceware.org/git/elfutils.git
+[submodule "systemtap"]
+	path = systemtap
+	url = git://sourceware.org/git/systemtap.git

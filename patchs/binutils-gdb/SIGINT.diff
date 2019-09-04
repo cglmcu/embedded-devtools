@@ -1,0 +1,13 @@
+diff --git a/gdb/gdbserver/linux-low.c b/gdb/gdbserver/linux-low.c
+index 3a9a522b73..ad5ed9928b 100644
+--- a/gdb/gdbserver/linux-low.c
++++ b/gdb/gdbserver/linux-low.c
+@@ -5968,7 +5968,7 @@ linux_request_interrupt (void)
+ 
+   /* Send a SIGINT to the process group.  This acts just like the user
+      typed a ^C on the controlling terminal.  */
+-  kill (-signal_pid, SIGINT);
++  kill (signal_pid, SIGINT);
+ }
+ 
+ /* Copy LEN bytes from inferior's auxiliary vector starting at OFFSET
